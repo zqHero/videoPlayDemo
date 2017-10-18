@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_playcontroller"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#55000000"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:gravity="center_vertical"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/stop$play"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical|left"
+        android:padding="5dp"
+        android:src="@mipmap/stop_small" />
+    
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_weight="1">
+        <SeekBar
+            android:id="@+id/timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:maxHeight="2dip"
+            android:minHeight="2dip"
+            android:progressDrawable="@drawable/bg_bar"
+            android:thumb="@drawable/thumb_bar" />
+        <TextView
+            android:id="@+id/timeProcess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:textColor="#fff"
+            android:text="00:00/00:00"
+            android:textSize="8sp"
+            />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/voice"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:src="@mipmap/icon_voice_val"
+        />
+
+    <ImageView
+        android:id="@+id/request_orien"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical|right"
+        android:padding="5dp"
+        android:src="@mipmap/full_screen"
+        />
+
+</LinearLayout>
+
+

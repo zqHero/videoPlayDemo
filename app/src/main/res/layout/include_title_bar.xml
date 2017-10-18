@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/title_color"
+        android:gravity="center_vertical"
+        android:text="视频播放适配Demo"
+        android:textSize="15sp"
+        android:textColor="#3e3c3d"
+        />
+
+</LinearLayout>
