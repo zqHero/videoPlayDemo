@@ -347,7 +347,7 @@ github:https://github.com/229457269/videoPlayDemo
 csdn:http://blog.csdn.net/u013233097/article/details/78272831
 
 
-欢迎   fork 和 star.
+#欢迎   fork 和 star.
 
 
 
