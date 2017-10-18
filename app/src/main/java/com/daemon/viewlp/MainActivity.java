@@ -40,7 +40,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-
         player = (VideoView) findViewById(R.id.paly_video);
         contentView = findViewById(R.id.contentView);
         titleView = findViewById(R.id.title_view);
